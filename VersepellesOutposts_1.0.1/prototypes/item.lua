@@ -1,0 +1,120 @@
+require("config")
+
+---------------------------------------------------------
+-- Outpost Resources
+data:extend({
+  {
+    type = "item",
+    name = "promethian-ore",
+    icon = "__VersepellesOutposts__/graphics/icons/promethian-ore.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "promethian",
+    order = "a",
+    stack_size = 1,
+  },
+  {
+    type = "item",
+    name = "promethian-plate",
+    icon = "__VersepellesOutposts__/graphics/icons/promethian-plate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "promethian",
+    order = "b",
+    stack_size = 1,
+  },
+  {
+    type = "item",
+    name = "electrolyzed-promethian-dust",
+    icon = "__VersepellesOutposts__/graphics/icons/electrolyzed-promethian-dust.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "promethian",
+    order = "c",
+    stack_size = 1,
+  },
+  {
+    type = "item",
+    name = "novitian-ore",
+    icon = "__VersepellesOutposts__/graphics/icons/novitian-ore.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "novitian",
+    order = "a",
+    stack_size = 1,
+  },
+  {
+    type = "item",
+    name = "novitian-plate",
+    icon = "__VersepellesOutposts__/graphics/icons/novitian-plate.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "novitian",
+    order = "b",
+    stack_size = 1,
+  },
+  {
+    type = "item",
+    name = "electrolyzed-novitian-dust",
+    icon = "__VersepellesOutposts__/graphics/icons/electrolyzed-novitian-dust.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "novitian",
+    order = "c",
+    stack_size = 1,
+  },
+  {
+    type = "item",
+    name = "extracted-biogas",
+    icon = "__VersepellesOutposts__/graphics/icons/extracted-biogas.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "extracted-biogas",
+    order = "a",
+    stack_size = 1,
+  },
+  {
+    type = "item",
+    name = "modified-rocket-fuel",
+    icon = "__VersepellesOutposts__/graphics/icons/modified-rocket-fuel.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "extracted-biogas",
+    order = "b",
+    stack_size = 1,
+  },
+  {
+    type = "item",
+    name = "artifact-fragment",
+    icon = "__VersepellesOutposts__/graphics/icons/artifact-fragment.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "artifact-fragment",
+    order = "a",
+    stack_size = 1,
+  },
+  {
+    type = "item",
+    name = "novitian-alloy",
+    icon = "__VersepellesOutposts__/graphics/icons/novitian-alloy.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "artifact-fragment",
+    order = "b",
+    stack_size = 1,
+  },
+  {
+    type = "item",
+    name = "reactive-alien-alloy",
+    icon = "__VersepellesOutposts__/graphics/icons/reactive-alien-alloy.png",
+    flags = {"goes-to-main-inventory"},
+    subgroup = "artifact-fragment",
+    order = "c",
+    stack_size = 1,
+  },
+})
+
+---------------------------------------------------------
+-- Exploration Vehicle
+data:extend({
+  {
+    type = "item",
+    name = "exploration-vehicle",
+    icon = "__base__/graphics/icons/car.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "exploration-vehicle",
+	place_result = "exploration-vehicle",
+    order = "a",
+    stack_size = 1,
+  },
+})
